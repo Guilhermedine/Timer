@@ -17,6 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.theme['gray-300']};
     
     font-family: 'Roboto Mono', monospace;
+    -webkit-font-smoothing: antialiased;
   }
 
   body, input, button {
